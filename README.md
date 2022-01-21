@@ -22,3 +22,8 @@ Parameters:
 
 Results:
   True or False and the time used for execution on the server in PHP
+
+# Installation
+
+Copy SS_Palindrome.php to your server.
+Change Palindrome.js to reflect the new URL
