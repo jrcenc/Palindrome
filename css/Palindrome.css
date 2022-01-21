@@ -1,0 +1,211 @@
+/* Copyright Aziom, Inc. 2022 */
+
+/* 
+Style sections have not been combined and optimized until final release
+*/
+
+A:active {
+	color: #2A7F55;
+	text-decoration: none
+}
+A:hover {
+	font-weight: bolder
+}
+A:link {
+	text-decoration: none;
+	color: #2A3FFF;
+}
+A:visited {
+	text-decoration: none;
+	color: #D40055;
+}
+body {
+	font-size: 18px;
+	font-style: normal;
+	padding: 2px;
+	margin: 0;
+	background-image: url(/img/bg1.jpg);
+}
+
+.hdrm {
+	background-color: #263246;
+	float: none;
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 0px;
+	min-width: 360px;
+	padding: 6px 0px 6px 20px;
+	vertical-align: middle;
+}
+
+div.hdrm a:active, div.hdrm a:hover, div.hdrm a:link, div.hdrm a:visited	{ 
+	text-decoration: none;	
+	color: #FFF;
+}
+
+.palTstHdr {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0FF;
+	padding: 10px 0 10px 0;
+ }
+
+#inpCntrOut {
+	display: inline-block;
+	width: 100%;
+	margin-top: 1px;
+}
+
+.inpCntr {
+	background-image: url(/img/input-bg2.jpg);
+	text-align: center;
+	width: 360px;
+	border: groove;
+	padding: 6px;
+	margin: auto;
+}
+
+.inpStrRow {
+	clear: both;
+	line-height: 34px;
+}
+
+.inpStrPrompt {
+	float: left;
+	color: #FFF;
+	text-align: right;
+	width: 110px;
+}
+
+.inpFormDat {
+	width: 160px;
+}
+
+.inpBut1, .inpBut2, .dispBut1 {
+	padding: 5px 12px 5px 12px;
+	border-radius: 3px;
+	border-width: 2px;
+	font-weight: bolder;
+	margin: 12px 20px 8px 20px;
+}
+
+.inpBut1 {
+	color: #038203;
+}
+
+.inpInfo {
+	float: right;
+	margin-top: 16px;
+}
+
+.inpSubmit {
+	width: 100%;
+}
+
+#dispCntrOut {
+	display: none;
+	width: 100%;
+	margin-top: 1px;
+ }
+
+.dispCntr {
+	background-image: url(/img/input-bg2.jpg);
+	text-align: center;
+	width: 360px;
+	border: groove;
+	padding: 6px;
+	margin: auto;
+}
+
+.dispHdr {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0FF;
+	padding: 10px 0 10px 0;
+}
+
+#dispResults {
+	color:#FFF;
+	font-size: 14px;
+}
+
+.dispStrNo {
+	float:left;
+	width: 17%
+}
+
+.dispName {
+	float:left;
+	width: 27%
+}
+
+.dispResult {
+	float:left;
+	width: 15%
+}
+
+.dispTime {
+	float:left;
+	width: 35%
+}
+
+.dispDone {
+	float:none;
+}
+
+.dispSubmit {
+	width: 100%;
+}
+
+.dispBut1 {
+	color: #038203;
+}
+
+#infoCntrOut {
+	display: none;
+	width: 100%;
+	margin-top: 1px;
+}
+
+.infoCntr {
+	background-image: url(/img/input-bg2.jpg);
+	text-align: center;
+	width: 360px;
+	border: groove;
+	padding: 6px;
+	margin: auto;
+}
+
+.infoHdr {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0FF;
+	padding: 10px 0 10px 0;
+}
+
+.infoSub {
+	color: white;
+	text-align: left;
+}
+
+.infoSub2 {
+	text-decoration: underline;
+	font-size: 14px;
+	color: #Cff;
+}
+
+.infoTxt {
+	font-size: 13px;
+	margin-left: 20px;
+}
+
+.infoSubmit {
+	padding-top: 20px;
+}
+
+.infoBut1 {
+	color: #038203;	
+	font-weight: bolder;
+}
+
+#infoResults {
+	color:#FFF;
+	font-size: 14px;
+}
